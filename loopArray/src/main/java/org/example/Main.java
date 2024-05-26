@@ -17,7 +17,7 @@ public class Main {
         printUniqueCities(citiesWithDuplicates);
     }
 
-    // Завдання 1: v
+    // Завдання 1: Пошук міста в масиві рядків
     public static boolean searchCityInArray(String[] cities, String searchCity) {
         // Використання циклу for
         for (String city : cities) {
