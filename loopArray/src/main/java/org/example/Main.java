@@ -17,7 +17,7 @@ public class Main {
         printUniqueCities(citiesWithDuplicates);
     }
 
-    // Завдання 1: Пошук міста в масиві рядків
+    // Завдання 1: v
     public static boolean searchCityInArray(String[] cities, String searchCity) {
         // Використання циклу for
         for (String city : cities) {
@@ -38,7 +38,7 @@ public class Main {
         return false;
     }
 
-    // Завдання 2: Друк унікальних міст без повторень
+    // Завдання 2: Виведення унікальних міст без повторень
     public static void printUniqueCities(List<String> cities) {
         Set<String> uniqueCities = new HashSet<>(cities);
         System.out.println("Унікальні міста без повторень:");
